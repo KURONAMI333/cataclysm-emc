@@ -1,0 +1,308 @@
+{
+  "replace": false,
+  "comment": "L_Ender's Cataclysm EMC integration for ProjectE (KURONAMI). Values per _research/emc_campaign_2026-08-26/CATACLYSM_EMC_SPEC.md (SS3/SS4, rulings SS8). Gear (tools/weapons/armour incl. sturdy_boots), stateful curios (berserker_soul_amulet, ring_of_grudged, necklace_of_the_desert, vitality_ankh) and khopesh (no acquisition path) intentionally have no EMC. ancient_metal_block/witherite_block derive from their ingots (x9). Music discs are enumerated by id because PE1.1.0 gives no value to #minecraft:music_discs.",
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "emc_value": 288,
+        "id": "cataclysm:black_steel_ingot"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1152,
+        "id": "cataclysm:ancient_metal_ingot"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2304,
+        "id": "cataclysm:ignitium_ingot"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2560,
+        "id": "cataclysm:witherite_ingot"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 3072,
+        "id": "cataclysm:cursium_ingot"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 9216,
+        "id": "cataclysm:enderite_block"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:lacrima"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:lionfish"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:koboleton_bone"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:amethyst_crab_meat"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 128,
+        "id": "cataclysm:crystallized_coral_fragments"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:coral_chunk"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:void_crystal"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:void_lantern_block"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:lava_power_cell"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 512,
+        "id": "cataclysm:amethyst_crab_shell"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 512,
+        "id": "cataclysm:chitin_claw"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 512,
+        "id": "cataclysm:dying_ember"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4096,
+        "id": "cataclysm:monstrous_horn"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 512,
+        "id": "cataclysm:strange_key"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 768,
+        "id": "cataclysm:void_jaw"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "cataclysm:void_core"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "cataclysm:sandstorm_in_a_bottle"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "cataclysm:goddess_statue"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "cataclysm:remnant_skull"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "cataclysm:unbreakable_skull"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1536,
+        "id": "cataclysm:essence_of_the_storm"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:abyssal_egg"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:aptrgangr_head"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:draugr_head"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "cataclysm:kobolediator_skull"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16,
+        "id": "cataclysm:pointed_icicle"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16,
+        "id": "cataclysm:void_stone"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:void_infused_end_stone_bricks"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_cindaria"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_clawdian"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_harvest"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_hippocamtus"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_sea"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_smithing"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_thunder"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_underworld"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_urchinkin"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:azure_seastone_mural_wisdom"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:sandstone_falling_trap"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:sandstone_ignite_trap"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "cataclysm:sandstone_poison_dart_trap"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_ancient_remnant"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_ender_guardian"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_ignis"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_maledictus"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_netherite_monstrosity"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_scylla"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_the_harbinger"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_the_leviathan"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "cataclysm:music_disc_the_cataclysmfarer"
+      }
+    ]
+  },
+  "groups": {
+    "altar_of_amethyst": {
+      "comment": "cataclysm:amethyst_bless is a custom recipe type (AltarOfAmethyst), so ProjectE cannot derive it. The altar consumes only the input item (single slot, AltarOfAmethyst_BlockEntity#cookAndOutputItems); there is no catalyst.",
+      "conversions": [
+        {
+          "output": {
+            "type": "projecte:item",
+            "id": "cataclysm:blessed_amethyst_crab_meat"
+          },
+          "count": 1,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "cataclysm:amethyst_crab_meat"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

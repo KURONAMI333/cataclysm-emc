@@ -1,0 +1,53 @@
+### Gradle ###
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+buildSrc/.gradle/
+buildSrc/build/
+*.class
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store
+
+# dev run directories and local JVM crash dumps (never enter the public repo)
+run/
+run-client/
+*/run/
+*/run-client/
+*.hprof
+
+# dev-only runClient host stack with local absolute paths (applied by build.gradle only when present)
+runclient-hosts.gradle
+
+# 統括 <-> executor の引き継ぎ・作業証跡（公開 repo に入れない）
+_handoff/
+GAP_LOG.md
+RELEASE_HANDOFF.md
+_docs/STORE_METADATA.md
+
+# logo/icon production workspace (published assets live in src/main/resources)
+branding/
+
+# scratch dir from an earlier scaffold generation
+repo/

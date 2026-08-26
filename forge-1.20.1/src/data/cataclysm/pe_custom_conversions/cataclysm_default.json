@@ -1,0 +1,90 @@
+{
+  "comment": "L_Ender's Cataclysm EMC integration for ProjectE (KURONAMI). Values per _research/emc_campaign_2026-08-26/CATACLYSM_EMC_SPEC.md (SS5). Gear (tools/weapons/armour incl. sturdy_boots), stateful curios (berserker_soul_amulet, ring_of_grudged, necklace_of_the_desert, vitality_ankh) and khopesh (no acquisition path) intentionally have no EMC. ancient_metal_block/witherite_block derive from their ingots (x9). Music discs need no entry: PE1.0.1 defaults value #minecraft:music_discs at 2048.",
+  "values": {
+    "before": {
+      "cataclysm:black_steel_ingot": 288,
+      "cataclysm:ancient_metal_ingot": 1152,
+      "cataclysm:ignitium_ingot": 2304,
+      "cataclysm:witherite_ingot": 2560,
+      "cataclysm:cursium_ingot": 3072,
+      "cataclysm:enderite_block": 9216,
+      "cataclysm:lacrima": 64,
+      "cataclysm:lionfish": 64,
+      "cataclysm:koboleton_bone": 64,
+      "cataclysm:amethyst_crab_meat": 64,
+      "cataclysm:crystallized_coral_fragments": 128,
+      "cataclysm:coral_chunk": 256,
+      "cataclysm:void_crystal": 256,
+      "cataclysm:void_lantern_block": 256,
+      "cataclysm:lava_power_cell": 256,
+      "cataclysm:amethyst_crab_shell": 512,
+      "cataclysm:chitin_claw": 512,
+      "cataclysm:dying_ember": 512,
+      "cataclysm:monstrous_horn": 4096,
+      "cataclysm:strange_key": 512,
+      "cataclysm:void_jaw": 768,
+      "cataclysm:void_core": 1024,
+      "cataclysm:sandstorm_in_a_bottle": 1024,
+      "cataclysm:goddess_statue": 1024,
+      "cataclysm:remnant_skull": 1024,
+      "cataclysm:unbreakable_skull": 1024,
+      "cataclysm:essence_of_the_storm": 1536,
+      "cataclysm:abyssal_egg": 2048,
+      "cataclysm:aptrgangr_head": 256,
+      "cataclysm:draugr_head": 256,
+      "cataclysm:kobolediator_skull": 256,
+      "cataclysm:pointed_icicle": 16,
+      "cataclysm:void_stone": 16,
+      "cataclysm:void_infused_end_stone_bricks": 64,
+      "cataclysm:azure_seastone_mural_cindaria": 64,
+      "cataclysm:azure_seastone_mural_clawdian": 64,
+      "cataclysm:azure_seastone_mural_harvest": 64,
+      "cataclysm:azure_seastone_mural_hippocamtus": 64,
+      "cataclysm:azure_seastone_mural_sea": 64,
+      "cataclysm:azure_seastone_mural_smithing": 64,
+      "cataclysm:azure_seastone_mural_thunder": 64,
+      "cataclysm:azure_seastone_mural_underworld": 64,
+      "cataclysm:azure_seastone_mural_urchinkin": 64,
+      "cataclysm:azure_seastone_mural_wisdom": 64,
+      "cataclysm:sandstone_falling_trap": 64,
+      "cataclysm:sandstone_ignite_trap": 64,
+      "cataclysm:sandstone_poison_dart_trap": 64,
+      "cataclysm:curved_azure_seastone_cindaria_1": 64,
+      "cataclysm:curved_azure_seastone_cindaria_2": 64,
+      "cataclysm:curved_azure_seastone_cindaria_3": 64,
+      "cataclysm:curved_azure_seastone_cindaria_4": 64,
+      "cataclysm:curved_azure_seastone_clawdian_1": 64,
+      "cataclysm:curved_azure_seastone_clawdian_2": 64,
+      "cataclysm:curved_azure_seastone_clawdian_3": 64,
+      "cataclysm:curved_azure_seastone_clawdian_4": 64,
+      "cataclysm:curved_azure_seastone_hippocamtus_1": 64,
+      "cataclysm:curved_azure_seastone_hippocamtus_2": 64,
+      "cataclysm:curved_azure_seastone_hippocamtus_3": 64,
+      "cataclysm:curved_azure_seastone_hippocamtus_4": 64,
+      "cataclysm:curved_azure_seastone_scylla_1": 64,
+      "cataclysm:curved_azure_seastone_scylla_2": 64,
+      "cataclysm:curved_azure_seastone_scylla_3": 64,
+      "cataclysm:curved_azure_seastone_scylla_4": 64,
+      "cataclysm:curved_azure_seastone_scylla_5": 64,
+      "cataclysm:curved_azure_seastone_scylla_6": 64,
+      "cataclysm:curved_azure_seastone_scylla_7": 64,
+      "cataclysm:curved_azure_seastone_scylla_8": 64,
+      "cataclysm:curved_azure_seastone_scylla_9": 64,
+      "cataclysm:curved_azure_seastone_urchinkin": 64
+    }
+  },
+  "groups": {
+    "altar_of_amethyst": {
+      "comment": "cataclysm:amethyst_bless is a custom recipe type (AltarOfAmethyst), so ProjectE cannot derive it. The altar consumes only the input item (single slot); there is no catalyst.",
+      "conversions": [
+        {
+          "output": "cataclysm:blessed_amethyst_crab_meat",
+          "count": 1,
+          "ingredients": [
+            "cataclysm:amethyst_crab_meat"
+          ]
+        }
+      ]
+    }
+  }
+}
