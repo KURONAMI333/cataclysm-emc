@@ -1,9 +1,3 @@
-<!--
-CurseForge description 用（正本 STORE_BODY_EN.md の CF 差し替え版）。
-差分: 依存リンクを CurseForge 側 URL に統一（CF 本文から Modrinth への誘導を避ける方針・
-PROJECT_REGISTRY mod-067 の実例）。Markdown モードで貼り、プレビューで表崩れを確認してから Save。
--->
-
 # ProjectE: EMC for L_Ender's Cataclysm
 
 > L_Ender's Cataclysm's materials can't enter ProjectE's transmutation system on their own — this add-on prices them, so boss loot and dungeon metals finally have an EMC value.

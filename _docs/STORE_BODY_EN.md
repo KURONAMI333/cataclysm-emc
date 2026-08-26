@@ -1,10 +1,3 @@
-<!--
-正本（Modrinth body にそのまま貼る）。生成: OXWC-20260826-047 段4。
-CF 用の同正本は CF_DESCRIPTION.md（依存リンクを CurseForge 側 URL に差し替え済み）。
-フィールド値（title/summary/categories/env 等）は STORE_METADATA.md。
-jar 名・版は実物（cataclysm_emc-0.1.0+neoforge-1.21.1.jar / cataclysm_emc-0.1.0+forge-1.20.1.jar）と突合済み。
--->
-
 # ProjectE: EMC for L_Ender's Cataclysm
 
 > L_Ender's Cataclysm's materials can't enter ProjectE's transmutation system on their own — this add-on prices them, so boss loot and dungeon metals finally have an EMC value.
