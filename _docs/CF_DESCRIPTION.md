@@ -64,4 +64,4 @@ All Rights Reserved. Free to put in any modpack, on any platform, monetised or n
 
 Author: KURONAMI · Built for [L_Ender's Cataclysm](https://www.curseforge.com/minecraft/mc-mods/cataclysm) by L_Ender (assets © MCL_Ender, source LGPL v3.0 — none are included here)
 
-Source: https://github.com/KURONAMI333/cataclysm-emc · Issues: https://github.com/KURONAMI333/cataclysm-emc/issues
+Source: https://github.com/KURONAMI333/cataclysm-emc · Support: https://x.com/kuronami333
